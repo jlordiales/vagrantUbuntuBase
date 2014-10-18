@@ -22,4 +22,8 @@ The first time that VIM is started it will download Vundle
 (https://github.com/gmarik/Vundle.vim) and install all the plugins listed in
 ~/.dotfiles/vim/vim.symlink/vimrc.d/11_vundle_bundles.vim.
 
+Usage
+=====
+Clone this repository and do a vagrant up && vagrant ssh. This will probably
+take a while since it has to download a bunch of stuff. 
 
