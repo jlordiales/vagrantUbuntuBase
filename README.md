@@ -18,7 +18,7 @@ Base ubuntu box with my dotfiles. Basically this vagrant file:
   - Installs [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
   - Installs the [z jump script](https://github.com/rupa/z)
 
-The first time that VIM is started it will download Vundle
+The first time that VIM is started it will download [Vundle]
 (https://github.com/gmarik/Vundle.vim) and install all the plugins listed in
 ~/.dotfiles/vim/vim.symlink/vimrc.d/11_vundle_bundles.vim.
 
