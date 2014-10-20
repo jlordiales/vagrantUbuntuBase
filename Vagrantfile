@@ -8,6 +8,6 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.box = "ubuntu/trusty64"
 
   config.vm.provision "shell", 
-    inline: "sudo apt-get -y install git && git clone https://github.com/jlordiales/dotfiles ~/.dotfiles && ~/.dotfiles/bootstrap",
+    path: "setup.sh",
     privileged: false
 end
